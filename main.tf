@@ -40,6 +40,7 @@ variable "server_ami" {
     description = "Amazon Linux AMI id for the target region."
     default = {
         eu-west-1      = "ami-f9dd458a"
+        eu-west-2      = "ami-403e2524"
         eu-central-1   = "ami-ea26ce85"
         us-west-1      = "ami-31490d51"
         us-west-2      = "ami-7172b611"
